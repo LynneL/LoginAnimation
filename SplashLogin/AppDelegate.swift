@@ -74,7 +74,7 @@ extension AppDelegate:UNUserNotificationCenterDelegate{
             "Due to security policy, App is automatically logoff after 15 minutes inactivity.", arguments: nil)
         
         content.sound = UNNotificationSound.default()
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5,
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 900,
                                                         repeats: false)
         
         // Schedule the notification.
