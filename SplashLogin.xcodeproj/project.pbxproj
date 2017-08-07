@@ -34,12 +34,12 @@
 		BA64E4AB1F381CFF006F24B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A71F381CFF006F24B6 /* FBSDKCoreKit.framework */; };
 		BA64E4AC1F381CFF006F24B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A81F381CFF006F24B6 /* FBSDKLoginKit.framework */; };
 		BA64E4AD1F381CFF006F24B6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A91F381CFF006F24B6 /* FBSDKShareKit.framework */; };
+		BA64E4AF1F383623006F24B6 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E4AE1F383623006F24B6 /* ContentViewController.swift */; };
 		BA712CA01F33FC3700B7AA61 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA712C991F33FC3700B7AA61 /* FontInspector.m */; };
 		BA712CA11F33FC3700B7AA61 /* IonIcons-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BA712C9C1F33FC3700B7AA61 /* IonIcons-iOS.m */; };
 		BA712CA21F33FC3700B7AA61 /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA712C9D1F33FC3700B7AA61 /* ionicons.bundle */; };
 		BA712CA31F33FC3700B7AA61 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA712C9F1F33FC3700B7AA61 /* ionicons.ttf */; };
 		BA712CA71F342C6E00B7AA61 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */; };
-		BA712CAB1F343F5500B7AA61 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +74,7 @@
 		BA64E4A71F381CFF006F24B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		BA64E4A81F381CFF006F24B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		BA64E4A91F381CFF006F24B6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		BA64E4AE1F383623006F24B6 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		BA712C981F33FC3700B7AA61 /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
 		BA712C991F33FC3700B7AA61 /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
 		BA712C9A1F33FC3700B7AA61 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
@@ -83,7 +84,6 @@
 		BA712C9E1F33FC3700B7AA61 /* ionicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ionicons.h; sourceTree = "<group>"; };
 		BA712C9F1F33FC3700B7AA61 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
 		BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 				BA5D71301F33F23E0077F144 /* AppDelegate.swift */,
 				BA5D71341F33F23E0077F144 /* Main.storyboard */,
 				BA5D71321F33F23E0077F144 /* ViewController.swift */,
-				BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */,
+				BA64E4AE1F383623006F24B6 /* ContentViewController.swift */,
 				BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */,
 				BA64E3181F359631006F24B6 /* Utility.swift */,
 				BA64E2D21F353B81006F24B6 /* SupportingFiles */,
@@ -307,6 +307,7 @@
 			files = (
 				BA64E3071F358925006F24B6 /* IQNSArray+Sort.swift in Sources */,
 				BA64E30E1F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				BA64E4AF1F383623006F24B6 /* ContentViewController.swift in Sources */,
 				BA64E3111F358925006F24B6 /* IQTextView.swift in Sources */,
 				BA64E3131F358925006F24B6 /* IQPreviousNextView.swift in Sources */,
 				BA5D71331F33F23E0077F144 /* ViewController.swift in Sources */,
@@ -325,7 +326,6 @@
 				BA64E3121F358925006F24B6 /* IQBarButtonItem.swift in Sources */,
 				BA64E3091F358925006F24B6 /* IQUITextFieldView+Additions.swift in Sources */,
 				BA64E3081F358925006F24B6 /* IQUIScrollView+Additions.swift in Sources */,
-				BA712CAB1F343F5500B7AA61 /* ContentViewController.swift in Sources */,
 				BA64E30A1F358925006F24B6 /* IQUIView+Hierarchy.swift in Sources */,
 				BA712CA11F33FC3700B7AA61 /* IonIcons-iOS.m in Sources */,
 			);

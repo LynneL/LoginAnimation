@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     func UISetUp(){
-        originSignIn = CGRect(x: 37, y: 458, width: 320, height: 44)
+        originSignIn = CGRect(x: 37, y: 493, width: 320, height: 44)
         userNameImage.image = IonIcons.image(withIcon: ion_ios_person_outline, iconColor: .white, iconSize: 30, imageSize: CGSize(width: 30, height: 44))
         passwordImage.image = IonIcons.image(withIcon: ion_ios_locked_outline, iconColor: .white, iconSize: 30, imageSize: CGSize(width: 30, height: 44))
         rotateImage.image = IonIcons.image(withIcon: ion_load_c, iconColor: .white, iconSize: 35, imageSize: CGSize(width: 35, height: 35))
