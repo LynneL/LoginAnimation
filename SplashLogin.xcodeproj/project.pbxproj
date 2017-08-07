@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5D71311F33F23E0077F144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D71301F33F23E0077F144 /* AppDelegate.swift */; };
+		BA5D71331F33F23E0077F144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D71321F33F23E0077F144 /* ViewController.swift */; };
+		BA5D71361F33F23E0077F144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5D71341F33F23E0077F144 /* Main.storyboard */; };
+		BA5D71381F33F23E0077F144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5D71371F33F23E0077F144 /* Assets.xcassets */; };
+		BA5D713B1F33F23E0077F144 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5D71391F33F23E0077F144 /* LaunchScreen.storyboard */; };
+		BA64E3071F358925006F24B6 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F11F358925006F24B6 /* IQNSArray+Sort.swift */; };
+		BA64E3081F358925006F24B6 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F21F358925006F24B6 /* IQUIScrollView+Additions.swift */; };
+		BA64E3091F358925006F24B6 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F31F358925006F24B6 /* IQUITextFieldView+Additions.swift */; };
+		BA64E30A1F358925006F24B6 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F41F358925006F24B6 /* IQUIView+Hierarchy.swift */; };
+		BA64E30B1F358925006F24B6 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F51F358925006F24B6 /* IQUIViewController+Additions.swift */; };
+		BA64E30C1F358925006F24B6 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F61F358925006F24B6 /* IQUIWindow+Hierarchy.swift */; };
+		BA64E30D1F358925006F24B6 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F81F358925006F24B6 /* IQKeyboardManagerConstants.swift */; };
+		BA64E30E1F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2F91F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift */; };
+		BA64E30F1F358925006F24B6 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2FA1F358925006F24B6 /* IQKeyboardManager.swift */; };
+		BA64E3101F358925006F24B6 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2FC1F358925006F24B6 /* IQKeyboardReturnKeyHandler.swift */; };
+		BA64E3111F358925006F24B6 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E2FE1F358925006F24B6 /* IQTextView.swift */; };
+		BA64E3121F358925006F24B6 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3001F358925006F24B6 /* IQBarButtonItem.swift */; };
+		BA64E3131F358925006F24B6 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3011F358925006F24B6 /* IQPreviousNextView.swift */; };
+		BA64E3141F358925006F24B6 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3021F358925006F24B6 /* IQTitleBarButtonItem.swift */; };
+		BA64E3151F358925006F24B6 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3031F358925006F24B6 /* IQToolbar.swift */; };
+		BA64E3161F358925006F24B6 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3041F358925006F24B6 /* IQUIView+IQKeyboardToolbar.swift */; };
+		BA64E3171F358925006F24B6 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA64E3061F358925006F24B6 /* IQKeyboardManager.bundle */; };
+		BA64E3191F359631006F24B6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64E3181F359631006F24B6 /* Utility.swift */; };
+		BA64E4AA1F381CFF006F24B6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A61F381CFF006F24B6 /* Bolts.framework */; };
+		BA64E4AB1F381CFF006F24B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A71F381CFF006F24B6 /* FBSDKCoreKit.framework */; };
+		BA64E4AC1F381CFF006F24B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A81F381CFF006F24B6 /* FBSDKLoginKit.framework */; };
+		BA64E4AD1F381CFF006F24B6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA64E4A91F381CFF006F24B6 /* FBSDKShareKit.framework */; };
+		BA712CA01F33FC3700B7AA61 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = BA712C991F33FC3700B7AA61 /* FontInspector.m */; };
+		BA712CA11F33FC3700B7AA61 /* IonIcons-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = BA712C9C1F33FC3700B7AA61 /* IonIcons-iOS.m */; };
+		BA712CA21F33FC3700B7AA61 /* ionicons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA712C9D1F33FC3700B7AA61 /* ionicons.bundle */; };
+		BA712CA31F33FC3700B7AA61 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA712C9F1F33FC3700B7AA61 /* ionicons.ttf */; };
+		BA712CA71F342C6E00B7AA61 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */; };
+		BA712CAB1F343F5500B7AA61 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA5D712D1F33F23E0077F144 /* SplashLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5D71301F33F23E0077F144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5D71321F33F23E0077F144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA5D71351F33F23E0077F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5D71371F33F23E0077F144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5D713A1F33F23E0077F144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5D713C1F33F23E0077F144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5D71421F33FB4F0077F144 /* SplashLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashLogin-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA64E2F11F358925006F24B6 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		BA64E2F21F358925006F24B6 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		BA64E2F31F358925006F24B6 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		BA64E2F41F358925006F24B6 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		BA64E2F51F358925006F24B6 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		BA64E2F61F358925006F24B6 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		BA64E2F81F358925006F24B6 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		BA64E2F91F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		BA64E2FA1F358925006F24B6 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		BA64E2FB1F358925006F24B6 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		BA64E2FC1F358925006F24B6 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		BA64E2FE1F358925006F24B6 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		BA64E3001F358925006F24B6 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		BA64E3011F358925006F24B6 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		BA64E3021F358925006F24B6 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		BA64E3031F358925006F24B6 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		BA64E3041F358925006F24B6 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		BA64E3061F358925006F24B6 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		BA64E3181F359631006F24B6 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BA64E4A61F381CFF006F24B6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BA64E4A71F381CFF006F24B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		BA64E4A81F381CFF006F24B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		BA64E4A91F381CFF006F24B6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		BA712C981F33FC3700B7AA61 /* FontInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInspector.h; sourceTree = "<group>"; };
+		BA712C991F33FC3700B7AA61 /* FontInspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInspector.m; sourceTree = "<group>"; };
+		BA712C9A1F33FC3700B7AA61 /* ionicons-codes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ionicons-codes.h"; sourceTree = "<group>"; };
+		BA712C9B1F33FC3700B7AA61 /* IonIcons-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IonIcons-iOS.h"; sourceTree = "<group>"; };
+		BA712C9C1F33FC3700B7AA61 /* IonIcons-iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IonIcons-iOS.m"; sourceTree = "<group>"; };
+		BA712C9D1F33FC3700B7AA61 /* ionicons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ionicons.bundle; sourceTree = "<group>"; };
+		BA712C9E1F33FC3700B7AA61 /* ionicons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ionicons.h; sourceTree = "<group>"; };
+		BA712C9F1F33FC3700B7AA61 /* ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ionicons.ttf; sourceTree = "<group>"; };
+		BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5D712A1F33F23E0077F144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA64E4AD1F381CFF006F24B6 /* FBSDKShareKit.framework in Frameworks */,
+				BA64E4AA1F381CFF006F24B6 /* Bolts.framework in Frameworks */,
+				BA64E4AB1F381CFF006F24B6 /* FBSDKCoreKit.framework in Frameworks */,
+				BA64E4AC1F381CFF006F24B6 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5D71241F33F23E0077F144 = {
+			isa = PBXGroup;
+			children = (
+				BA5D712F1F33F23E0077F144 /* SplashLogin */,
+				BA5D712E1F33F23E0077F144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5D712E1F33F23E0077F144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D712D1F33F23E0077F144 /* SplashLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5D712F1F33F23E0077F144 /* SplashLogin */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D71301F33F23E0077F144 /* AppDelegate.swift */,
+				BA5D71341F33F23E0077F144 /* Main.storyboard */,
+				BA5D71321F33F23E0077F144 /* ViewController.swift */,
+				BA712CAA1F343F5500B7AA61 /* ContentViewController.swift */,
+				BA712CA61F342C6E00B7AA61 /* UIViewExtensions.swift */,
+				BA64E3181F359631006F24B6 /* Utility.swift */,
+				BA64E2D21F353B81006F24B6 /* SupportingFiles */,
+				BA64E2EF1F358925006F24B6 /* IQKeyboardManagerSwift */,
+				BA712C971F33FC3700B7AA61 /* ionicons */,
+			);
+			path = SplashLogin;
+			sourceTree = "<group>";
+		};
+		BA64E2D21F353B81006F24B6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D71421F33FB4F0077F144 /* SplashLogin-Bridging-Header.h */,
+				BA5D71371F33F23E0077F144 /* Assets.xcassets */,
+				BA5D71391F33F23E0077F144 /* LaunchScreen.storyboard */,
+				BA5D713C1F33F23E0077F144 /* Info.plist */,
+				BA64E4A61F381CFF006F24B6 /* Bolts.framework */,
+				BA64E4A71F381CFF006F24B6 /* FBSDKCoreKit.framework */,
+				BA64E4A81F381CFF006F24B6 /* FBSDKLoginKit.framework */,
+				BA64E4A91F381CFF006F24B6 /* FBSDKShareKit.framework */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		BA64E2EF1F358925006F24B6 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E2F01F358925006F24B6 /* Categories */,
+				BA64E2F71F358925006F24B6 /* Constants */,
+				BA64E2FA1F358925006F24B6 /* IQKeyboardManager.swift */,
+				BA64E2FB1F358925006F24B6 /* IQKeyboardManagerSwift.h */,
+				BA64E2FC1F358925006F24B6 /* IQKeyboardReturnKeyHandler.swift */,
+				BA64E2FD1F358925006F24B6 /* IQTextView */,
+				BA64E2FF1F358925006F24B6 /* IQToolbar */,
+				BA64E3051F358925006F24B6 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		BA64E2F01F358925006F24B6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E2F11F358925006F24B6 /* IQNSArray+Sort.swift */,
+				BA64E2F21F358925006F24B6 /* IQUIScrollView+Additions.swift */,
+				BA64E2F31F358925006F24B6 /* IQUITextFieldView+Additions.swift */,
+				BA64E2F41F358925006F24B6 /* IQUIView+Hierarchy.swift */,
+				BA64E2F51F358925006F24B6 /* IQUIViewController+Additions.swift */,
+				BA64E2F61F358925006F24B6 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BA64E2F71F358925006F24B6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E2F81F358925006F24B6 /* IQKeyboardManagerConstants.swift */,
+				BA64E2F91F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BA64E2FD1F358925006F24B6 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E2FE1F358925006F24B6 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		BA64E2FF1F358925006F24B6 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E3001F358925006F24B6 /* IQBarButtonItem.swift */,
+				BA64E3011F358925006F24B6 /* IQPreviousNextView.swift */,
+				BA64E3021F358925006F24B6 /* IQTitleBarButtonItem.swift */,
+				BA64E3031F358925006F24B6 /* IQToolbar.swift */,
+				BA64E3041F358925006F24B6 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		BA64E3051F358925006F24B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA64E3061F358925006F24B6 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BA712C971F33FC3700B7AA61 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				BA712C981F33FC3700B7AA61 /* FontInspector.h */,
+				BA712C991F33FC3700B7AA61 /* FontInspector.m */,
+				BA712C9A1F33FC3700B7AA61 /* ionicons-codes.h */,
+				BA712C9B1F33FC3700B7AA61 /* IonIcons-iOS.h */,
+				BA712C9C1F33FC3700B7AA61 /* IonIcons-iOS.m */,
+				BA712C9D1F33FC3700B7AA61 /* ionicons.bundle */,
+				BA712C9E1F33FC3700B7AA61 /* ionicons.h */,
+				BA712C9F1F33FC3700B7AA61 /* ionicons.ttf */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5D712C1F33F23E0077F144 /* SplashLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5D713F1F33F23E0077F144 /* Build configuration list for PBXNativeTarget "SplashLogin" */;
+			buildPhases = (
+				BA5D71291F33F23E0077F144 /* Sources */,
+				BA5D712A1F33F23E0077F144 /* Frameworks */,
+				BA5D712B1F33F23E0077F144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashLogin;
+			productName = SplashLogin;
+			productReference = BA5D712D1F33F23E0077F144 /* SplashLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5D71251F33F23E0077F144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lynne;
+				TargetAttributes = {
+					BA5D712C1F33F23E0077F144 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EZ679F3LK2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA5D71281F33F23E0077F144 /* Build configuration list for PBXProject "SplashLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5D71241F33F23E0077F144;
+			productRefGroup = BA5D712E1F33F23E0077F144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5D712C1F33F23E0077F144 /* SplashLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5D712B1F33F23E0077F144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D713B1F33F23E0077F144 /* LaunchScreen.storyboard in Resources */,
+				BA712CA31F33FC3700B7AA61 /* ionicons.ttf in Resources */,
+				BA64E3171F358925006F24B6 /* IQKeyboardManager.bundle in Resources */,
+				BA712CA21F33FC3700B7AA61 /* ionicons.bundle in Resources */,
+				BA5D71381F33F23E0077F144 /* Assets.xcassets in Resources */,
+				BA5D71361F33F23E0077F144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5D71291F33F23E0077F144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA64E3071F358925006F24B6 /* IQNSArray+Sort.swift in Sources */,
+				BA64E30E1F358925006F24B6 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				BA64E3111F358925006F24B6 /* IQTextView.swift in Sources */,
+				BA64E3131F358925006F24B6 /* IQPreviousNextView.swift in Sources */,
+				BA5D71331F33F23E0077F144 /* ViewController.swift in Sources */,
+				BA64E30D1F358925006F24B6 /* IQKeyboardManagerConstants.swift in Sources */,
+				BA712CA71F342C6E00B7AA61 /* UIViewExtensions.swift in Sources */,
+				BA64E30C1F358925006F24B6 /* IQUIWindow+Hierarchy.swift in Sources */,
+				BA64E3161F358925006F24B6 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				BA64E3151F358925006F24B6 /* IQToolbar.swift in Sources */,
+				BA64E30F1F358925006F24B6 /* IQKeyboardManager.swift in Sources */,
+				BA64E3141F358925006F24B6 /* IQTitleBarButtonItem.swift in Sources */,
+				BA64E30B1F358925006F24B6 /* IQUIViewController+Additions.swift in Sources */,
+				BA5D71311F33F23E0077F144 /* AppDelegate.swift in Sources */,
+				BA712CA01F33FC3700B7AA61 /* FontInspector.m in Sources */,
+				BA64E3101F358925006F24B6 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				BA64E3191F359631006F24B6 /* Utility.swift in Sources */,
+				BA64E3121F358925006F24B6 /* IQBarButtonItem.swift in Sources */,
+				BA64E3091F358925006F24B6 /* IQUITextFieldView+Additions.swift in Sources */,
+				BA64E3081F358925006F24B6 /* IQUIScrollView+Additions.swift in Sources */,
+				BA712CAB1F343F5500B7AA61 /* ContentViewController.swift in Sources */,
+				BA64E30A1F358925006F24B6 /* IQUIView+Hierarchy.swift in Sources */,
+				BA712CA11F33FC3700B7AA61 /* IonIcons-iOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA5D71341F33F23E0077F144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5D71351F33F23E0077F144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5D71391F33F23E0077F144 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5D713A1F33F23E0077F144 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5D713D1F33F23E0077F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA5D713E1F33F23E0077F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5D71401F33F23E0077F144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EZ679F3LK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplashLogin/FacebookSDKs-iOS-4.25.0",
+					"$(PROJECT_DIR)/SplashLogin",
+				);
+				INFOPLIST_FILE = SplashLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.SplashLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplashLogin/SplashLogin-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA5D71411F33F23E0077F144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EZ679F3LK2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SplashLogin/FacebookSDKs-iOS-4.25.0",
+					"$(PROJECT_DIR)/SplashLogin",
+				);
+				INFOPLIST_FILE = SplashLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lynne.SplashLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplashLogin/SplashLogin-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5D71281F33F23E0077F144 /* Build configuration list for PBXProject "SplashLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D713D1F33F23E0077F144 /* Debug */,
+				BA5D713E1F33F23E0077F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5D713F1F33F23E0077F144 /* Build configuration list for PBXNativeTarget "SplashLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D71401F33F23E0077F144 /* Debug */,
+				BA5D71411F33F23E0077F144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5D71251F33F23E0077F144 /* Project object */;
+}
